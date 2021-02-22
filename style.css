@@ -407,6 +407,8 @@ div.row.d-flex.justify-content-center  .col-lg-2.d-flex
     padding-top: 1rem;
 }
 
+.iconos p {font-size: 16px;}
+
 div.col-lg-2.col-sm-1.d-flex {padding-bottom: 12px;}
 
 div.col-lg-2 .col-sm-1.d-flex {padding-top: 0px;}
