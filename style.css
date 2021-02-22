@@ -407,10 +407,12 @@ div.row.d-flex.justify-content-center  .col-lg-2.d-flex
     padding-top: 1rem;
 }
 
+div.col-lg-2.col-sm-1.d-flex {padding-bottom: 12px;}
 
-.col-lg-2.d-flex, div.col-lg-3.d-flex {
+div.col-lg-2 .col-sm-1.d-flex {padding-top: 0px;}
+.col-lg-2.d-flex , div.col-lg-3.d-flex.img{
     padding-left: 0px;
-    padding-top: 1rem;}
+    padding-top: 12px;}
 
 /* OFERTAS */ 
 
