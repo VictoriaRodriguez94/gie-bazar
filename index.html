@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bievenido</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--BOOTSTRAP -->
+
+    <link href="style.css" rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/e26015140d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+
+
+    <div class="container-fluid head px-0">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light  justify-content-center">
+                <!-- Primera fila para mobile -->
+                <div class="row align-items-center">
+                    <a class="navbar-brand col-lg-2 col-4 py-0 order-lg-1 order-1 mx-0">
+                        <img src="../imagenes/logo.jpg" alt="">
+                    </a>
+
+                    <div class="col-lg-4 col-2 order-lg-5 order-3">
+                        <button class="navbar-toggler px-2 py-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
+                            <i title="" class="fa fa-bars text-primary"></i>
+                        </button>
+                    </div>
+                    <form class="form-inline col-10 col-lg-4 order-4 order-lg-3 mx-0 px-2 border-0">
+                        <div class="row align-items-center w-100">
+                            <input class="form-control col-9 pr-0 pl-2 col-lg-8 bg-light" type="search"
+                                placeholder="Eso que querés, buscalo acá" aria-label="Search">
+
+                            <div class="col-3 col-lg-4">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                    <span class="d-none d-sm-block"> BUSCAR </span>
+                                    <span class="d-block d-sm-block d-md-none">
+                                        <i class="fas fa-search"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row  ml-auto  col-8 col-lg-4 justify-content-end order-lg-4 order-2">
+
+                        <a href="" class="col-2">
+                            <i class="fa fa-phone-alt fa-lg d-none d-sm-block"></i>
+                        </a>
+
+                        <a href="" class="col-4 d-none d-sm-block">
+                            Telefono <p>
+                                35115666665
+                            </p></a>
+
+                        <a href="" class="col-2">
+                            <i class="fa fa-heart fa-lg"></i>
+                        </a>
+                        <a href="" class="col-2">
+                            <i class="fa fa-shopping-bag fa-lg"></i>  
+                        </a>
+                        <a href="" class="col-2">
+                            <i class="fa fa-user fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 order-5 col-lg-2 order-lg-2">
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-default dropdown-toggle"
+                                        data-toggle="dropdown">
+                                        Todas las categorias
+                                        <span class="caret"></span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+            
+        <hr class=" d-none d-sm-block">
+
+        <div class="container justify-content-around">
+            <ul class="nav ">
+                <li class="d-none d-sm-block "> <a href=""> <i class="fas fa-bars"></i> Categorias </a>
+                    <ul class="px-0">
+                        <li class="desplegable"><a href=""> <i class="fas fa-star "></i>  Promociones</a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-blender-phone"></i>  Electrodomesticos</a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-sink"></i>Cocinas</a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-coffee"></i>Accesorios para Te</a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-mug-hot"></i>Accesorios para Vinos</a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-balance-scale-right"></i>  Balanzas Electrónicas</a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-bread-slice"></i>  Articulos de Panaderia</a></li>
+                        <li class="desplegable"><a href=""><i class="fas fa-mug-hot"></i>Cafeteras</a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-sliders-h"></i> Cortadoras de Fiambre </a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-mug-hot"></i>Cristalería</a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-utensils"></i>  Cuchillos </a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-blender-phone"></i>    Dispenser de cereales</a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-sink"></i> Dispenser de Agua </a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-industry"></i> Fabrica de Pastas </a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-mortar-pestle"></i>Exprimidoras</a></li>
+                        <li class="desplegable"><a href=""> <i class="fas fa-bacon"></i>Freidoras</a></li>
+                    </ul>
+                <li class="menu d-none d-sm-block"><a href="">Inicio</a></li>
+                <li class="d-none d-sm-block"><a href="">Marcas</a>
+                <li class="d-none d-sm-block"><a href="">Quienes somos?</a>
+                <li class="d-none d-sm-block"><a href="">Contacto</a></li>
+                <li class="menu-der ml-auto d-none d-sm-block"><a href="">Pago y Envío</a>
+                <li class="d-none d-sm-block"><a href=""><span> | </span></a></li>
+                <li class="menu-d d-none d-sm-block"><a href="">Términos y Condiciones</a></li>
+
+            </ul>
+        </div>
+
+        </div>
+
+    </div>
+
+    </header>
+
+
+
+    <!-- MAIN-->
+
+    <main class="container">
+
+        <section class="principal">
+            <div class="row d-flex">
+                <div class="col-lg-9 col-xs-12 edicion-limitada">
+                    <img src="imagenes/edicionlimitada.PNG" alt="" class="edicion-limitada">
+                </div>
+
+                <div class="col-lg-3 d-none d-sm-block u-full-width ">
+                    <img src="imagenes/consulte descuentos.PNG" class="float-right" alt="">
+                    <img src="imagenes/consultedescuentos2.PNG" class="float-right" alt="">
+                </div>
+            </div>
+
+            <div class="col-xs-12 d-flex d-block d-sm-block d-md-none">
+                <img src="imagenes/descuentos-mobile.PNG" class="float-right mobile" alt="">
+            </div>
+
+            <div class="col-xs-12 d-flex d-block d-sm-block d-md-none">
+                <img src="imagenes/descuento-mobile.PNG" class="float-right mobile" alt="">
+            </div>
+
+            <!-- Envios, entregas, Pagos-->
+
+            <div class="row d-flex iconos justify-content-center">
+                <div class="col-lg-2 d-flex">
+                    <div class="col-lg-3 d-flex justify-content-around">
+                        <img src="imagenes/iconos/camion.png" class="iconos-envio">
+                    </div>
+                    <div class="col-lg-12  ">
+                        <p> <b> Envíos gratis </b> <br> A partir de $3000</p>
+                    </div>
+                </div>
+
+                <span class="d-none d-sm-block"> | </span>
+
+                <div class="col-lg-3 d-flex">
+                    <div class="col-lg-3 d-flex">
+                        <img src="imagenes/iconos/flechas.png" class="iconos-envio3">
+                    </div>
+                    <div class="col-lg-12">
+                        <p> <b> Devolución 30 días </b> <br> Si tienes algún problema</p>
+                    </div>
+                </div>
+
+                <span class="d-none d-sm-block"> | </span>
+
+                <div class="col-lg-2 d-flex">
+                    <div class="col-lg-3 d-flex justify-content-around">
+                        <img src="imagenes/iconos/tarjeta.png" class="iconos-envio3">
+                    </div>
+                    <div class="col-lg-12">
+                        <p> <b> Pagos Seguros </b> <br> %100 Pagos Seguros</p>
+                    </div>
+                </div>
+
+                <span class=" d-none d-sm-block "> | </span>
+
+                <div class="col-lg-2 d-flex">
+                    <div class="col-lg-3 d-flex justify-content-around">
+                        <img src="imagenes/iconos/regalo.png" class="iconos-envio3">
+                    </div>
+                    <div class="col-lg-12">
+                        <p> <b> Regalos </b> <br> Servicio de Regalos</p>
+                    </div>
+                </div>
+
+                <span class=" d-none d-sm-block"> | </span>
+
+
+                <div class="col-lg-2 d-flex">
+                    <div class="col-lg-3 d-flex justify-content-around">
+                        <img src="imagenes/iconos/auricular.png" class="iconos-envio3">
+                    </div>
+                    <div class="col-lg-12">
+                        <p> <b> Soporte </b> <br> Soporte en Compra</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Ofertas semanales-->
+
+        <section class="ofertas-semanales d-flex">
+            <span> Ofertas de la semana </span> <button class="oferta-sem"> Termina en: 00:00:00 </button>
+        </section>
+
+        <!-- Primer Galeria -->
+
+        <div class="row slider">
+
+            <div class="col-md-12 col-xs-2">
+                <div class="card">
+                    <img src="imagenes/img1.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$35.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Aire acondicionador Decler Portatil Frio/Calor</a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-xs-2">
+                <div class="card">
+                    <img src="imagenes/img2.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Aire acondicionador Decler Portatil Frio/Calor</a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-xs-2">
+                <div class="card">
+                    <img src="imagenes/img3.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$12.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Sillón un Cuerpo Treno
+                                Chenillie</a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12  d-none d-sm-block">
+                <div class="card">
+                    <img src="imagenes/img4.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Set
+                                de ollas Antiadherentes
+                                Tramontina</a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12  d-none d-sm-block">
+                <div class="card">
+                    <img src="imagenes/img5.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$5.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Set
+                                de Jardinería de 9 piezas
+                                Premium</a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12  d-none d-sm-block">
+                <div class="card">
+                    <img src="imagenes/img6.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$3.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Set
+                                x 9 Kit Utensillos de
+                                Cocina Mango Premium</a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12  d-none d-sm-block">
+                <div class="card">
+                    <img src="imagenes/img6.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$15.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Estantería Organizador de Madera </a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- OFERTAS -->
+
+        <section class="ofertas ">
+            <div class="row recort d-flex justify-content-center">
+                <div class="col-lg-4 col-sm-12  d-flex justify-content-center recorte">
+                    <img src="imagenes/recorte1.PNG" class="imagen-curso u-full-width">
+                </div>
+
+                <div class="col-lg-4 col-sm-12  d-flex justify-content-center recorte">
+                    <img src="imagenes/recorte2.PNG" class="imagen-curso u-full-width">
+                </div>
+
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center recorte">
+                    <img src="imagenes/recorte3.PNG" class="imagen-curso u-full-width">
+                </div>
+        </section>
+
+        <!-- SECCION ELECTRODOMESTICOS -->
+
+        <nav >
+            <div class="row d-flex  w-100">
+                <div class="articulos-electrodomesticos col-lg-4 col-sm-3">
+                    <h5>Articulos electrodomésticos</h5>
+                </div>
+                <ul class="list-items col-lg-8  ml-auto">
+                    <li class="list col-lg-2 col-sm-12"><a href="#" class="link">Nuevo</a></li>
+
+                    <li class="list col-lg-2"><a href="#" class="link">Mas vendidos</a></li>
+
+                    <li class="list col-lg-2"><a href="#" class="link">Mas populares</a></li>
+
+                    <li class="list col-lg-2"><a href="#" class="link">Ver todo</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Galeria  electrodomesticos -->
+
+        <div class="row slider">
+
+            <div class="col-md-12 col-xs-2">
+                <div class="card">
+                    <img src="imagenes/electrodomestico1.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$35.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Procesadora de Vegetales NutriBullet
+                            </a>
+                        </p> <img src="/imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-xs-2">
+                <div class="card">
+                    <img src="imagenes/electrodomestico2.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Parlante Marshall <br> Kilburn II
+                            </a>
+                        </p> <img src="/imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-xs-2">
+                <div class="card">
+                    <img src="imagenes/electrodomestico3.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Parlante Thonet & Vander Hoch Portátil bluetooth
+                            </a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12  d-none d-sm-block">
+                <div class="card">
+                    <img src="imagenes/lavarropa4.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Lavarropa Automático LG WM8514EE6 inverter stone
+                            </a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12  d-none d-sm-block">
+                <div class="card">
+                    <img src="imagenes/electrodomestico5.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Cámara Acción Gopro Hero4 White
+                            </a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12  d-none d-sm-block">
+                <div class="card">
+                    <img src="imagenes/electrodomestico6.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Parlante Portátil con Bluetooth
+
+                            </a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12  d-none d-sm-block">
+                <div class="card">
+                    <img src="imagenes/electrodomestico1.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Procesadora de Vegetales NutriBullet
+                            </a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Articulos Bazar -->
+
+        <nav >
+            <div class="row d-flex  w-100">
+                <div class="articulos-electrodomesticos col-lg-4 col-sm-3">
+                    <h5>Articulos de Bazar</h5>
+                </div>
+                <ul class="list-items col-lg-8  justify-content-end">
+                    <li class="list col-lg-2"><a href="#" class="link">Nuevo</a></li>
+
+                    <li class="list col-lg-2"><a href="#" class="link">Mas vendidos</a></li>
+
+                    <li class="list col-lg-2"><a href="#" class="link">Mas populares</a></li>
+
+                    <li class="list col-lg-2"><a href="#" class="link">Ver todo</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    
+
+        <!-- Galeria bazar -->
+
+        <div class="row slider">
+
+            <div class="col-md-12 col-xs-2">
+                <div class="card">
+                    <img src="imagenes/recientemente1.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$20.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Silla Eames x 4 DSW
+                                Diseño Moderno</a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-xs-2">
+                <div class="card">
+                    <img src="imagenes/recientemente2.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Ventilador Turbo Diseño
+                                Nórdico Madera</a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-xs-2">
+                <div class="card">
+                    <img src="imagenes/mochila1.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Mochila Táctica Militar
+                                Colores y Calidad Premium</a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-xs-2">
+                <div class="card">
+                    <img src="imagenes/recientemente4.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Taco de Madera Cuchillos
+                                13 piezas</a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-xs-2  d-none d-sm-block">
+                <div class="card">
+                    <img src="imagenes/recientemente5.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Bolso de Viaje Urbano
+                                de alta Calidad premium</a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-xs-2  d-none d-sm-block">
+                <div class="card">
+                    <img src="imagenes/recientemente6.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Cámara de seguridad <br>
+                                IP Wifi
+                            </a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-xs-2  d-none d-sm-block">
+                <div class="card">
+                    <img src="imagenes/img6.PNG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <p class="precio">$25.000</p>
+                        <p> <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                data-id="1">Estantería Organizador de Madera
+                            </a>
+                        </p> <img src="imagenes/estrellas.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Promociones -->
+
+        <section class="promociones">
+            <div class="row">
+                <div class="d-block d-sm-block d-md-none  mx-auto d-block ">
+                    <img src="imagenes/promociones-mobile.PNG" class="img descuento u-full-width">
+                </div>
+
+                <div class="col-6  d-none d-sm-block">
+                    <img src="imagenes/grandespromociones.PNG" class="img promocion u-full-width">
+                </div>
+
+                <div class="col-lg-5 col-sm-12 d-flex">
+                    <img src="imagenes/grandesdescuentos.PNG" class="img descuento u-full-width">
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Suscripcion -->
+
+        <section class="container ">
+            <div class="row beneficios">
+                <div class="col-5 d-none d-sm-block">
+                    <img src="imagenes/beneficios.PNG" class="img promocion u-full-width">
+                </div>
+
+                <div class="col-lg-6 ">
+                    <h4> Noticias y beneficios</h4>
+                    <div class="col-lg-8 ">
+                        <p>Recibí todas nuestras noticias y beneficios que tenemos para vos
+                        </p>
+                    </div>
+                    <div class="col-md-10 col-lg-10  ">
+                        <form class="form-inline d-flex">
+                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email"
+                                placeholder="Correo Electrónico">
+                            <button class="btn  mx-auto" type="submit">SUSCRIBIRSE </button>
+                        </form>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <!-- Productos vistos recientemente -->
+
+    <section class="container-fluid">
+        <div class="row productos">
+            <div class="container">
+                <h4> Productos vistos recientemente</h4>
+                <div class="row recientes justify-content-center">
+                    <div class="col-2 justify-content-center">
+                        <img src="imagenes/recientemente1.PNG" alt="">
+                    </div>
+
+                    <div class="col-2">
+                        <img src="imagenes/recientemente2.PNG" class="img-mobile" alt="">
+                    </div>
+
+                    <div class="col-2">
+                        <img class=" d-none d-sm-block" src="imagenes/recientemente3.PNG" alt="">
+                    </div>
+
+                    <div class="col-2">
+                        <img class=" d-none d-sm-block" src="imagenes/recientemente4.PNG" alt="">
+                    </div>
+
+                    <div class="col-2 justify-content-center  d-none d-sm-block">
+                        <img src="imagenes/recientemente5.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER-->
+
+    <footer>
+        <section class="container-fluid">
+            <div class="row footer">
+                <div class="container">
+                    <div class="row footer justify-content-center ">
+                        <div class="col-lg-3 col-sm-6 ">
+                            <h5>Enlaces </h5>
+                            <hr>
+                            <div class="row ul">
+                                <ul>
+                                    <li> Terminos y condiciones</li>
+                                    <li> Sobre nosotros</li>
+                                    <li> Como comprar</li>
+                                    <li> Contactanos</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 ">
+                            <h5>
+                                Contactos
+                            </h5>
+                            <hr>
+                            <div class="row ul">
+                                <ul>
+                                    <li> <i class="fas fa-map-marker-alt"></i> Bazar Gie SRL , Bv. Sarmiento 431 -
+                                        Villa Carlos Paz. Cordoba (5152)</li>
+                                    <li> <i class="fas fa-mobile-alt"></i> 03541 -424362 /421015 </li>
+                                    <li> <i class="far fa-envelope"></i> bazargiesrl@gmail.com</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 edicion d-none d-sm-block">
+                            <h5>
+                                Data Fiscal
+                            </h5>
+                            <hr>
+                            <div class="row">
+                                <img src="imagenes/datafiscal.PNG" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 edicion ">
+                            <h5> Seguinos </h5>
+                            <hr>
+                            <i class="fab fa-facebook-f  fa-lg"></i>
+                            <i class="fab fa-instagram  fa-lg"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid">
+            <div class="row foot">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 text">
+                            © 2021 GIE BAZAR. Todos los derechos reservados.</div>
+                        <div class="col-lg-4 col-sm-6 justify-content-center text-center">
+                            <span> Desarrollado por <img src="imagenes/wualanegativo.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $('.slider').slick({
+            centerMode: true,
+            centerPadding: '10px',
+            slidesToShow: 6,
+            responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>

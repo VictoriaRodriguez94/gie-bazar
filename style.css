@@ -1,0 +1,496 @@
+
+/* NAVBAR BOOTSTRAP Y FLEX */
+
+.navbar img {width: 100%;}
+.form-inline { border: 1px solid grey;} 
+
+input.form-control {border: none;}
+
+form.form-inline.col-lg-6 {padding:  0%;
+}
+
+ul.px-0 {width: 130%; 
+font-size: 12px;}
+
+ul.px-0 i {padding-right: 15px;}
+
+nav.navbar.navbar-expand-lg.navbar-light.justify-content-center {background-color: #1161C2;
+margin: 0%;}
+
+nav.navbar.navbar-expand-lg.navbar-light.justify-content-center img {width: 100%;}
+
+.row.col-8.col-lg-4.justify-content-end.order-lg-4.order-2 {align-items: center;}
+.row.col-8.col-lg-4.justify-content-end.order-lg-4.order-2 p {margin: 0%;}
+
+.fa.fa-bars.text-primary, span.d-none.d-sm-block , .fa-bars:before , nav i , a.col-4.d-none.d-sm-block {color:white;}
+
+.col-12.order-5.col-lg-2.order-lg-2  {padding-right: 0%;
+background-color: white;}
+
+div.col-3.col-lg-4 {    padding-left: 0; }
+.btn.btn-outline-success.my-2.my-sm-0 {background-color: black;
+border: 1px solid black;}
+
+div.container-fluid.head.px-0 {background-color: #1161C2;}
+	
+.form-inline.col-10.col-lg-4.order-4.order-lg-3.mx-0.px-2.border-0 {margin-bottom: 0%;}
+
+.btn.btn-default.dropdown-toggle {border-bottom-width: 0px;}
+
+hr {background-color: #E6E6E6;
+margin: 0%;}
+
+
+
+ul, ol {
+    list-style:none;
+    
+}
+
+.nav > li {
+    float:left;
+    position: relative;
+z-index: 1000;
+}
+
+.nav li a {
+    background-color: #1161C2;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#1161C2;
+    color: white;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+    margin-left: 0%;
+    padding-left: 0%;
+
+}
+
+
+input.form-control.col-9.pr-0.pl-2.col-lg-8.bg-light , button.btn.btn-outline-success.my-2.my-sm-0 {border-radius: 0%;}
+
+
+ul li .desplegable a {background-color: white;
+color: black;}
+
+i.fas.fa-bars {margin-right: 2rem;}
+
+li.menu {margin-left: 5rem;}
+
+li.menu-der {margin-left: 0rem;}
+
+li.menu-der a {margin-right: 0%;
+    padding-right: 0%;}
+
+li.menu-d a {margin-left: 0%;
+    padding-left: 0%;} 
+
+    /* IMAGENES PRINCIAPES */ 
+
+.principal {margin-top: 2rem;}
+
+
+.principal p {color: #1161C2;
+padding: 0%; }
+
+
+.principal .col-lg-3.d-none.d-sm-block.u-full-width img {width: 60%;
+margin-bottom: 0.9rem ;}
+
+
+
+
+/* articulos bazar -electrodomesticos */ 
+
+.row.d-flex.w-100 { text-align: center;}
+
+.row.d-flex.w-100 h5 {font-weight: bold;
+        text-align: left;
+        padding-left: 3rem;
+    }
+
+.list.col-lg-2{font-size: 12px;}
+
+
+section.articulos {padding-right: 0%;}
+
+/* ICONOS */ 
+
+div.col-lg-12 p {margin: auto;}
+
+.col-lg-12  {margin: auto;}
+
+.iconos img { 
+    width: 47px; 
+    height: 39px;
+margin: auto;}
+
+.iconos p  {font-size: 12px;}
+
+.iconos span {color: rgb(223, 217, 217);
+font-size: 2rem;
+align-items: center;
+justify-content: center}
+
+
+div.row.d-flex.justify-content-center {border: 1px solid #E6E6E6;
+padding: 1rem;}
+
+div.row.d-flex.justify-content-center span { color: #E6E6E6 ;
+margin: auto;}
+
+
+section .ofertas-semanales {margin-top: 1rem;
+margin-bottom: 6rem;}
+
+p.precio {color: black;}
+
+.card img.imagen-curso.u-full-width  {height: 166.953px;}
+
+.ofertas {margin-top: 2rem;
+margin: auto;}
+
+.ofertas img {width: 100%;
+height: 213.993px;
+margin: auto;}
+
+.row.recort.d-flex.justify-content-center {border: none;
+padding-left: 0%;
+padding-right: 0;
+margin-top: 3rem;}
+
+.enlaces { float: right;  }
+
+.slick-next::before, .slick-prev::before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: grey !important;
+
+}
+
+.card {border: none;}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light ul
+{ margin-left: 20rem;}
+
+nav {
+    background: #E6E6E6 ;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .articulos-electrodomesticos {
+    flex: 1;
+        margin: auto
+  
+  }
+  
+  .articulos-electrodomesticos h5 {
+    font-size: 1rem;
+   
+  }
+  .list-items {
+    flex: 2;
+    display: flex;
+    justify-content:flex-end;
+    margin: auto;
+
+  }
+  
+  .list { padding: 1rem;
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s background;
+  }
+  
+  nav h5 {margin: auto;}
+
+  button.oferta-sem {background-color: orangered;
+color: white;
+border-radius: 1rem;
+border: none;
+margin-left: 2rem;}
+
+.ofertas-semanales {margin-top: 3rem;
+margin-bottom: 1rem;}
+
+.promociones {margin-top: 3rem;}
+
+.promociones div.col-5 {margin-left: 4rem;}
+
+.promociones div.col-6 {margin-left:0;}
+
+img.img.descuento.u-full-width {margin-left: 9rem;}
+
+img.img.promociones.u-full-width {height: 165px;}
+
+
+.row.beneficios {margin-top: 2rem;
+    background-color: #F4F4F4;
+margin-bottom: 3rem;} 
+
+.row.beneficios h4 {font-weight: bold;
+margin-top: 4rem;}
+
+div.col-md-10.col-lg-10 {padding-left: 0%;
+margin-top: 1rem;}
+
+div.col-md-10.col-lg-10  input {border-radius: 0%;
+border: none;}
+
+button.btn.mx-auto {color: white;
+background-color: #1161C2;
+font-weight: bold;
+border-radius: 0%;}
+
+div.row.productos {background-color:  #F4F4F4;}
+
+div.row.productos h4 {margin-top: 2rem;
+margin-bottom: 2rem;
+font-weight: bold;}
+
+div.row.recientes {background-color: white;
+margin: auto;}
+
+div.row.recientes img {width: 8rem;
+   }
+
+.col-2.justify-content-center {margin: auto;
+}
+
+.row.recientes.justify-content-center {margin-bottom: 3rem;}
+
+.col-lg-3 hr {border: 2px solid black;
+width: 3rem;
+margin-bottom: 1rem;}
+
+.col-lg-3 h5 {font-size: 1.5rem;
+margin-top: 3rem;}
+
+div.row.ul ul {padding-left: 15px ;}
+
+.col-lg-3 img {margin-left: 0.9rem;}
+
+.col-lg-3.edicion {padding-left: 70px;}
+
+div.row.foot {background-color:  #1161C2 ;
+color: white;
+padding-top: 1rem;
+padding-bottom: 1rem;
+margin-top: 2rem;}
+
+.row.foot img {width: 5rem;
+margin: auto;}
+
+.col-lg-4.text.text {font-size: 15px;}
+
+.card a {font-size: 12px;}
+
+footer ul li   { color: grey;}
+
+/* CORRECIONES MARGENES*/ 
+
+.row.beneficios .col-lg-8 {margin-left: 0;
+padding-left: 0;}
+
+
+
+
+
+/*-----------------  MEDIA QUERIES MOBILE--------*/
+
+
+@media only screen and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    header {background-color:#1161C2 ;
+    max-width: 480px;}
+
+
+
+    input.form-control.col-9.pr-0.pl-2.col-lg-8.bg-light , button.btn.btn-outline-success.my-2.my-sm-0 {font-size: 12px;}
+
+
+    .principal .col-8.edicion-limitada img {
+        width: 360px;
+        height: 97px;
+}
+
+.col-4.u-full-width {margin-top: 3rem;}
+
+.col-4.u-full-width img {position: relative;
+    width:  360px;
+    margin: 0%;
+    padding: 0%;
+    clip-path: inset(20% 0% 25% 0%);
+    }
+
+.header.container img {
+    width: 6rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.col-7 {
+    background-color: white;
+    margin: auto;
+    margin-left: 1rem;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+
+
+.col-7 p {
+    font-size: 0.9rem;
+    margin: auto;
+}
+
+.col-7 .col-2 {
+    background-color: black;
+    color: white;
+    height: 2rem;}
+
+    
+/* IMAGENES PRINCIPALES */ 
+
+.edicion-limitada img{margin-bottom: 2rem;
+width: 100%;}
+
+
+.float-right.mobile {width: 100%;
+margin-bottom: 2rem;}
+
+.float-right {
+    margin: auto;}
+
+
+/* iCONOS */ 
+
+
+div.row.d-flex.justify-content-center {
+    width: 100%;;
+    margin: auto;}
+    
+    
+div.row.d-flex.justify-content-center  .col-lg-2.d-flex
+{
+    padding-top: 1rem;
+}
+
+
+/* OFERTAS */ 
+
+.ofertas img {width: 100%;
+margin: auto;
+height: auto;
+padding-bottom: 2rem;
+padding-left: 0%;}
+
+img.imagen-curso.u-full-width {margin-left: 0;}
+
+.col-lg-4.col-sm-12.d-flex.justify-content-center.recorte {padding: 0%;}
+
+
+ /* LISTAS -BAZAR-ELECTRODOMESTICOS */ 
+ 
+ li.col-lg-1 {padding-bottom: 0%;
+ }
+
+
+nav {padding-left: 1rem;}
+
+ .row.d-flex { flex-direction: column;} 
+ .row.d-flex ul.list-items {margin: 0%; flex-direction: column;
+padding: 0%;
+}
+.list.col-lg-2 , .list.col-lg-3 , .list.col-lg-4 , .list.col-lg-1 , div.articulos-electrodomesticos.col-lg-4.col-sm-3 h5  { text-align: left;
+padding-bottom: 0%;
+padding-top: 0%;
+}
+
+.list.col-lg-2 , .list.col-lg-3 , .list.col-lg-4 , .list.col-lg-1  {font-size: 12px;}
+
+.articulos-electrodomesticos.col-lg-6.col-sm-3 , .articulos-electrodomesticos.col-lg-6.col-sm-3 h5 , div.articulos-electrodomesticos.col-lg-4.col-sm-3 h5
+ {padding-left: 0rem;
+letter-spacing: 0px;}
+
+/* GALERIA  */
+
+
+.col-md-12.col-xs-2 {width: 60% !important;
+padding: 0%;}
+
+.slick-list.draggable {padding: 0px 0px !important;}
+
+.slick-slide.slick-current.slick-active.slick-center , .slick-slide , div.slick-slide {width: 250px !important;}
+
+/*PROMOCIONES */ 
+
+img.img.descuento.u-full-width {margin-left: 0;
+margin: auto;
+width: 100%;
+margin-top: 2rem;}
+
+
+
+/* NEWSLETER */ 
+
+.col-lg-6 h4 {text-align: center;}
+
+
+.row.beneficios h4 {
+    font-size: 2.38rem;}
+
+.form-control.flex-fill.mr-0.mr-sm-2.mb-3.mb-sm-0
+{width: 25px;
+margin-bottom: 0 !important;}
+
+form { margin-bottom: 2rem;}
+
+/* PRODUCTOS MAS RECIENTES */
+.container h4 {font-size: 1.2rem ;}
+img.img-mobile { 
+    padding-left: 2rem;
+}
+
+
+    /* FOOTER */ 
+
+    .col-lg-3.edicion {
+        padding-left: 15px;}
+
+    div.col-lg-4.text {text-align: center;} 
+
+
+}
+
