@@ -332,7 +332,7 @@ padding-left: 0;}
 /*-----------------  MEDIA QUERIES MOBILE--------*/
 
 
-@media only screen and (min-device-width : 320px) 
+@media only screen and (min-device-width : 300px) 
 and (max-device-width : 480px) {
     header {background-color:#1161C2 ;
     max-width: 480px;}
@@ -398,16 +398,19 @@ margin-bottom: 2rem;}
 /* iCONOS */ 
 
 
-div.row.d-flex.justify-content-center {
-    width: 100%;;
-    margin: auto;}
-    
+
+.col-lg-2.d-flex , div.col-lg-3.d-flex {padding-left: 0px;}
+div.row.d-flex.justify-content-center { margin: auto;}
     
 div.row.d-flex.justify-content-center  .col-lg-2.d-flex
 {
     padding-top: 1rem;
 }
 
+
+.col-lg-2.d-flex, div.col-lg-3.d-flex {
+    padding-left: 0px;
+    padding-top: 1rem;}
 
 /* OFERTAS */ 
 
